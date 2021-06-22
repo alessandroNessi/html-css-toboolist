@@ -25,11 +25,27 @@
 /* /HEADER LAYOUT */
 /* _________________________________________________________________________________________________________________________________ */
 /* MAIN LAYOUT */
-main{
+.container{
     margin: 5em 1em;
     margin-left: auto;
     margin-right: auto;
     max-width: 1300px;
+    border-radius: 15px;
+    padding: 1em 2em 2em 6em;
+}
+button{
+    font-size: 1.5em;
+    color: lightgrey;
+    border: grey solid 1px;
+    border-radius: 5px;
+    margin: 30px 3px 20px;
+    padding: 10px 20px;
+    background-color: inherit;
+}
+button.selected{
+    background-color:rgb(71,173,241) ;
+    color: white;
+    border-color: rgb(71,173,241);
 }
 /* /MAIN LAYOUT */
 /* _________________________________________________________________________________________________________________________________ */
