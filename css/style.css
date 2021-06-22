@@ -46,8 +46,32 @@
     font-weight:lighter;
     list-style-type: none;
 }
+.category{
+    display: inline-block;
+    font-size: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    color: white;
+}
+.background_lightblue{
+    background-color: lightblue;
+}
+.ok{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    text-align: center;
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
 li{
     padding: 5px;
+}
+.triangle{
+    vertical-align: middle;
 }
     /* _________________________________________________________________________________________________________________________________ */
     /* BOTTONI */
