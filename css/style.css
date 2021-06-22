@@ -15,7 +15,7 @@ body{
     background-color: white;
 }
 .header_container img{
-    height:3em;
+    height:2.5em;
     vertical-align:middle;
 }
 .header_container h1{
@@ -102,7 +102,7 @@ body{
 /* /CHECK PROPRIETIES */
 li{
     padding: 15px;
-    background-color: white;
+    vertical-align: middle;
 }
 .triangle{
     vertical-align: middle;
