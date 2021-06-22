@@ -3,7 +3,41 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    background-color: rgb(246, 248,249);
 }
-header{
+.header_container{
     font-size: 2em;
+    padding: 1em;
+    background-color: white;
+}
+.header_container img{
+    height:3em;
+    vertical-align:middle;
+}
+.header_container h1{
+    display: inline-block;
+    vertical-align:middle;
+}
+.white_background{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* CLASSI DEBUGGER */
+.pest{
+    border: solid 2px;
+}
+.red{
+    border-color: red;
+}
+.green{
+    border-color: green;
 }
