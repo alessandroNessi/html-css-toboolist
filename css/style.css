@@ -53,20 +53,41 @@
     border-radius: 0.5em;
     color: white;
 }
-.background_lightblue{
-    background-color: lightblue;
+.background_lightgreen{
+    background-color: rgb(110, 192, 169);
 }
-.ok{
+.background_lightorange{
+    background-color: rgb(242, 158, 51);
+}
+.background_lightpink{
+    background-color: rgb(216, 99, 161);
+}
+.background_greengrass{
+    background-color: rgb(176, 201, 38);
+}
+.background_lightpurple{
+    background-color: rgb(156, 114, 228);
+}
+.background_lightblue{
+    background-color: rgb(71,173,241);
+}
+.check{
     display: inline-block;
     width: 1.5em;
     height: 1.5em;
     vertical-align: middle;
     text-align: center;
-    color: green;
-    border: 2px solid green;
+    border: 2px solid;
     border-radius: 50%;
 }
-
+.not_ok{
+    color: red;
+    border-color: red;
+}
+.ok{
+    color: green;
+    border-color: green;
+}
 li{
     padding: 5px;
 }
