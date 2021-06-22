@@ -33,20 +33,40 @@
     border-radius: 15px;
     padding: 1em 2em 2em 6em;
 }
-button{
-    font-size: 1.5em;
-    color: lightgrey;
-    border: grey solid 1px;
-    border-radius: 5px;
-    margin: 30px 3px 20px;
-    padding: 10px 20px;
-    background-color: inherit;
+.list_container{
+    padding: 40px 10px;
+    font-size: 2em;
+    color: black;
 }
-button.selected{
-    background-color:rgb(71,173,241) ;
-    color: white;
-    border-color: rgb(71,173,241);
+.primary_list{
+    font-weight: bold;
+    list-style-type: none;
 }
+.secondary_list{
+    font-weight:lighter;
+    list-style-type: none;
+}
+li{
+    padding: 5px;
+}
+    /* _________________________________________________________________________________________________________________________________ */
+    /* BOTTONI */
+    button{
+        font-size: 1.5em;
+        color: lightgrey;
+        border: grey solid 1px;
+        border-radius: 5px;
+        margin: 30px 3px 20px;
+        padding: 10px 20px;
+        background-color: inherit;
+    }
+    button.selected{
+        background-color:rgb(71,173,241) ;
+        color: white;
+        border-color: rgb(71,173,241);
+    }
+    /* /BOTTONI */
+    /* _________________________________________________________________________________________________________________________________ */
 /* /MAIN LAYOUT */
 /* _________________________________________________________________________________________________________________________________ */
 /* COMMON LAYOUT */
