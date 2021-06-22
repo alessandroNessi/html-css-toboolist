@@ -71,7 +71,9 @@
 .background_lightblue{
     background-color: rgb(71,173,241);
 }
+/* CHECKS PROPRIETIES */
 .check{
+    font-size: 0.6em;
     display: inline-block;
     width: 1.5em;
     height: 1.5em;
@@ -88,8 +90,10 @@
     color: green;
     border-color: green;
 }
+/* /CHECK PROPRIETIES */
 li{
     padding: 15px;
+    background-color: white;
 }
 .triangle{
     vertical-align: middle;
